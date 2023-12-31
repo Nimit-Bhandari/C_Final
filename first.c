@@ -40,3 +40,4 @@ if(sum==sq2)
 printf("yes");
 else printf("no");
 }
+///hi
