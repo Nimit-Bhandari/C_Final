@@ -1,0 +1,23 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build C program",
+            "type": "shell",
+            "command": "gcc",
+            "args": [
+                "-g",                // Include debugging information
+                "C:\Users\nimla\OneDrive\Desktop\Codin'23-24\C programs\DATA STRUCTURES\astack.c",
+                "C:\Users\nimla\OneDrive\Desktop\Codin'23-24\C programs\DATA STRUCTURES\atry.c",
+                "-o",                // Output file flag
+                "myprogram"          // Name of the output executable
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": ["$gcc"],
+            "detail": "Compile C program using GCC."
+        }
+    ]
+}
