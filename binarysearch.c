@@ -4,6 +4,7 @@ int mid(int a);
 int main()
 {
 int arr[4];// dbbhbdv
+//bbhbsb
 for(int i=0;i<4;i++)
 {
     scanf("%d",&arr[i])
