@@ -3,7 +3,7 @@ int bin(int ar[],int el,int si);
 int mid(int a);
 int main()
 {
-int arr[4];
+int arr[4];// dbbhbdv
 for(int i=0;i<4;i++)
 {
     scanf("%d",&arr[i])
