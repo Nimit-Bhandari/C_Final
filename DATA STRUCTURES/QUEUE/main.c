@@ -8,7 +8,7 @@ int main()
     push(&q,20);
     push(&q,30);
     while(q.i!=-1){
-    printf("%d\n",pop(&q));
+    printf("%d\n",pop(&q));//uhushd
     //printf("%d",pop(&q));
     }
 }
